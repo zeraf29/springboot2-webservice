@@ -46,7 +46,7 @@ public class HelloControllerTest {
         int amount = 1000;
 
         mvc.perform(
-                get("hello/dto")
+                get("/hello/dto")
                     .param("name",name) //param: API 테스트 시 사용될 요청 파라미터 설정. 값은 String만 가능 (숫자/날짜 등의 데이터도 문자열로 변경해야 함)
                     .param("amount", String.valueOf(amount))
                 )
