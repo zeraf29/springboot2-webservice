@@ -19,7 +19,6 @@ public class PostsSrvice {
     private final PostsRepository postsRepository;
 
     public Long save(PostsSaveRequestDto requestDto){
-        return null;
-        //return postsRepository.save(requestDto.toEntity()).getId();
+        return postsRepository.save(requestDto.toEntity()).getId();
     }
 }

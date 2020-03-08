@@ -1,4 +1,4 @@
-package com.zeraf29.book.springboot;
+package com.zeraf29.book.springboot.web;
 
 
 import com.zeraf29.book.springboot.web.HelloController;
